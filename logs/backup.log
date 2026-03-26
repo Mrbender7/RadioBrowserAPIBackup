@@ -1,0 +1,44 @@
+[2026-03-26T08:42:49.827Z] [INFO] ========================================
+[2026-03-26T08:42:49.829Z] [INFO] RadioSphere Backup Process Started
+[2026-03-26T08:42:49.829Z] [INFO] Mode: DRY RUN
+[2026-03-26T08:42:49.830Z] [INFO] ========================================
+[2026-03-26T08:42:49.830Z] [INFO] Starting station download process
+[2026-03-26T08:42:49.831Z] [INFO] Attempting to fetch from https://de1.api.radio-browser.info/json/stations (attempt 1/3)
+[2026-03-26T08:42:51.408Z] [INFO] Successfully fetched 1000 stations from https://de1.api.radio-browser.info/json/stations
+[2026-03-26T08:42:51.409Z] [INFO] Attempting to fetch from https://nl1.api.radio-browser.info/json/stations (attempt 1/3)
+[2026-03-26T08:42:51.422Z] [INFO] Waiting 2000ms before retry...
+[2026-03-26T08:42:53.424Z] [INFO] Attempting to fetch from https://nl1.api.radio-browser.info/json/stations (attempt 2/3)
+[2026-03-26T08:42:53.431Z] [INFO] Waiting 4000ms before retry...
+[2026-03-26T08:42:57.432Z] [INFO] Attempting to fetch from https://nl1.api.radio-browser.info/json/stations (attempt 3/3)
+[2026-03-26T08:42:57.439Z] [INFO] Attempting to fetch from https://at1.api.radio-browser.info/json/stations (attempt 1/3)
+[2026-03-26T08:42:57.451Z] [INFO] Waiting 2000ms before retry...
+[2026-03-26T08:42:59.452Z] [INFO] Attempting to fetch from https://at1.api.radio-browser.info/json/stations (attempt 2/3)
+[2026-03-26T08:42:59.458Z] [INFO] Waiting 4000ms before retry...
+[2026-03-26T08:43:03.460Z] [INFO] Attempting to fetch from https://at1.api.radio-browser.info/json/stations (attempt 3/3)
+[2026-03-26T08:43:03.469Z] [INFO] ========================================
+[2026-03-26T08:43:03.469Z] [INFO] Backup Process FAILED
+[2026-03-26T08:43:03.470Z] [INFO] ========================================
+[2026-03-26T08:44:24.393Z] [INFO] ========================================
+[2026-03-26T08:44:24.395Z] [INFO] RadioSphere Backup Process Started
+[2026-03-26T08:44:24.396Z] [INFO] Mode: DRY RUN
+[2026-03-26T08:44:24.396Z] [INFO] ========================================
+[2026-03-26T08:44:24.397Z] [INFO] Starting station download process
+[2026-03-26T08:44:24.397Z] [INFO] Attempting to fetch from https://de1.api.radio-browser.info/json/stations?limit=100000 (attempt 1/3)
+[2026-03-26T08:44:33.907Z] [INFO] Successfully fetched 53265 stations from https://de1.api.radio-browser.info/json/stations?limit=100000
+[2026-03-26T08:44:33.913Z] [INFO] Download successful: 53265 stations retrieved
+[2026-03-26T08:44:33.914Z] [INFO] Starting station filtering and cleaning process
+[2026-03-26T08:44:33.918Z] [INFO] Filtered offline stations: 8 removed
+[2026-03-26T08:44:33.938Z] [INFO] Filtered invalid URLs: 0 removed
+[2026-03-26T08:44:33.954Z] [INFO] Filtered unknown codecs: 1547 removed
+[2026-03-26T08:44:33.957Z] [INFO] Filtered zero bitrate: 9947 removed
+[2026-03-26T08:44:33.985Z] [INFO] Filtered duplicates: 7121 removed
+[2026-03-26T08:44:34.119Z] [INFO] Filtering complete: 53265 -> 34642 stations (65.04% retained)
+[2026-03-26T08:44:34.120Z] [INFO] No manual stations to merge
+[2026-03-26T08:44:34.121Z] [INFO] Data validation passed
+[2026-03-26T08:44:34.545Z] [INFO] [DRY RUN] Would save files but skipping due to dry-run mode
+[2026-03-26T08:44:34.546Z] [INFO] ========================================
+[2026-03-26T08:44:34.546Z] [INFO] Backup Process Completed Successfully
+[2026-03-26T08:44:34.547Z] [INFO] Duration: 10.15s
+[2026-03-26T08:44:34.547Z] [INFO] Total stations: 34642
+[2026-03-26T08:44:34.547Z] [INFO] Changes detected: YES
+[2026-03-26T08:44:34.548Z] [INFO] ========================================

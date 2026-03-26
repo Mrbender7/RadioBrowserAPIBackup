@@ -1,0 +1,27 @@
+{
+  "name": "radiosphere-api-backup",
+  "version": "1.0.0",
+  "description": "Autonomous backup infrastructure for RadioSphere.be - Mirror of Radio-Browser API with automated daily updates",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "backup": "node scripts/fetch-stations.js",
+    "test": "node scripts/fetch-stations.js --dry-run",
+    "build": "echo 'No build step required for Node.js automation project'"
+  },
+  "keywords": [
+    "radio",
+    "backup",
+    "api",
+    "radiosphere",
+    "automation"
+  ],
+  "author": "RadioSphere.be",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

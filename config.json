@@ -1,0 +1,58 @@
+{
+  "api": {
+    "endpoints": [
+      "https://de1.api.radio-browser.info/json/stations?limit=100000",
+      "https://nl1.api.radio-browser.info/json/stations?limit=100000",
+      "https://at1.api.radio-browser.info/json/stations?limit=100000"
+    ],
+    "timeout": 60000,
+    "retries": 3,
+    "retryDelay": 2000
+  },
+  "filtering": {
+    "minStationsThreshold": 10000,
+    "keepOnlyOnlineStations": true,
+    "removeInvalidUrls": true,
+    "removeDuplicatesByUrl": true,
+    "removeUnknownCodec": true,
+    "removeZeroBitrate": true,
+    "cleanStationNames": true,
+    "minBitrate": 0,
+    "safetyThresholdPercent": 80
+  },
+  "backup": {
+    "maxArchives": 7,
+    "dataDirectory": "./data",
+    "archivesDirectory": "./data/archives",
+    "logsDirectory": "./logs",
+    "mainFile": "stations.json",
+    "metadataFile": "stations-metadata.json",
+    "lightFile": "stations-light.json",
+    "statsFile": "stats.json",
+    "manualStationsFile": "manual-stations.json"
+  },
+  "output": {
+    "essentialFields": [
+      "stationuuid",
+      "name",
+      "url",
+      "url_resolved",
+      "homepage",
+      "favicon",
+      "country",
+      "countrycode",
+      "state",
+      "language",
+      "languagecodes",
+      "tags",
+      "codec",
+      "bitrate",
+      "votes",
+      "lastcheckoktime",
+      "clickcount",
+      "geo_lat",
+      "geo_long"
+    ],
+    "prettyPrint": false
+  }
+}

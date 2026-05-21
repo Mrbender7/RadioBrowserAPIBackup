@@ -1,8 +1,8 @@
 {
-  "last_update": "2026-05-20T06:03:48.943Z",
-  "total_stations": 36569,
-  "previous_total": 36500,
-  "change_delta": 69,
-  "hash": "d14aff240d3a0e62f3a9da1caa6c9fb98f969b1b14aaf1b43b18730bb854203f",
-  "previous_hash": "14d0397515bd5251258233ede75fd2acc714b61327f65b209e6ebc0310ad4dfa"
+  "last_update": "2026-05-21T06:06:51.763Z",
+  "total_stations": 36599,
+  "previous_total": 36569,
+  "change_delta": 30,
+  "hash": "1b60a27a9c9bcf4c95fda956f6e2589d00fec1b68a5b7116b3c596e7ef4ce405",
+  "previous_hash": "d14aff240d3a0e62f3a9da1caa6c9fb98f969b1b14aaf1b43b18730bb854203f"
 }

@@ -1,7 +1,7 @@
 {
-  "total": 38083,
-  "last_update": "2026-09-20T07:23:00.083Z",
-  "countries": 210,
+  "total": 39389,
+  "last_update": "2026-09-21T07:33:14.075Z",
+  "countries": 211,
   "codecs": [
     "AAC",
     "MP3",
@@ -11,5 +11,5 @@
     "AAC+,H.264",
     "MP4"
   ],
-  "avg_bitrate": 239
+  "avg_bitrate": 240
 }
